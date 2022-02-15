@@ -9,6 +9,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.set('views', path.join(__dirname, 'views'));
 app.engine('html', require('ejs').renderFile);
 app.set('view engine', 'html');
+app.use('/public', express.static('public'));
 
 
 app.get('/rooms', (req, res, next) => {
@@ -33,7 +34,7 @@ io.on('connection', socket => {
     })
 
     socket.on('votou', data => {
-        
+
     })
 });
 

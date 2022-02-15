@@ -1,0 +1,249 @@
+* {
+    padding: 0px 0px 0px 0px;
+}
+
+body {
+    max-width: 100%;
+    background-color: #f5f6f7;
+    font-family: 'Helvetica', 'Arial', sans-serif;
+}
+
+#container-main {
+    width: 90%;
+    min-height: 500px;
+    display: flex;
+    margin: 6% auto auto auto;
+}
+
+.div-left {
+    width: 50%;
+    min-height: 100%;
+    min-width: 50%;
+    color: #fff;
+    border-radius: 10px 0px 0px 10px;
+    display: block;
+    background: #0184bb;
+    background: linear-gradient(225deg, #16bac5 3.26%, #0184bb 99.54%);
+}
+
+.div-right {
+    width: 50%;
+    min-height: 100%;
+    min-width: 50%;
+    color: #333333;
+    border-radius: 0px 10px 10px 0px;
+    display: block;
+    background-color: #fff;
+}
+
+.div-right h1 {
+    justify-content: center;
+    display: flex;
+}
+
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+.card-btn {
+    border: 2px solid #3993ff;
+    cursor: pointer;
+    outline: 0;
+    transition: all .09s linear;
+}
+
+.card-li {
+    display: inline-block;
+    margin: 0 0.8rem;
+    transition: all .1s linear;
+    vertical-align: top;
+    white-space: nowrap;
+}
+
+.card-ul {
+    list-style: none;
+    margin: 0;
+    max-width: 100%;
+    overflow-x: auto;
+    overflow-y: hidden;
+    padding: 1.6rem;
+    text-align: center;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    white-space: nowrap;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.faixa ul {
+    display: flex;
+    justify-content: center;
+}
+
+.faixa ul li {
+    list-style-type: none;
+    padding-right: 14px;
+}
+
+.faixa h3 {
+    justify-content: center;
+    display: flex;
+}
+
+.faixa p {
+    justify-content: center;
+    display: flex;
+}
+
+.faixa button {
+    background-color: transparent;
+    color: #fff;
+    width: 60px;
+    border-radius: 10%;
+    border: none;
+    border: 1px solid #fff;
+}
+
+.campo-message {
+    width: 90%;
+    height: 270px;
+    border-radius: 5px;
+    border: 2px solid #d5d7d9;
+    padding: 0.35rem 1.75rem 0.35rem 0.35rem;
+    margin: -15px auto 0 auto;
+    background-color: #f7f7f7;
+}
+
+#message {
+    margin-left: 4%;
+}
+
+.logo-poli img {
+    width: 200px;
+    float: right;
+}
+
+.div-left form {
+    display: table;
+    margin-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.div-left img {
+    display: block;
+    height: 15px;
+    display: inline-block;
+    background: var('--messenger-color');
+}
+
+input {
+    width: 100%;
+    height: 25px;
+    margin-top: 5px;
+    background-color: #fff;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 4px;
+    border: 2px solid #d5d7d9;
+    padding: 0.35rem 1.75rem 0.35rem 0.35rem;
+}
+
+input:focus {
+    width: 100%;
+    height: 25px;
+    margin-top: 5px;
+    background-color: #fff;
+    box-shadow: 0px 0px 5px 0px #1060c2;
+    border-radius: 4px;
+    outline: 0;
+}
+
+#room {
+    width: 100%;
+}
+
+.name-input {
+    color: #fff;
+    font-size: 1rem;
+    margin-top: 15px;
+    display: inline-block;
+}
+
+#chat {
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    display: table;
+}
+
+.form-control-right {
+    width: 100%;
+    border-radius: 5px;
+    border: 2px solid #d5d7d9;
+    padding: 0.35rem 1.75rem 0.35rem 0.35rem;
+    margin-top: 12px;
+    background-color: #f7f7f7;
+    display: block;
+}
+
+.form-control-right:focus {
+    width: 100%;
+    border-radius: 5px;
+    border: 2px solid #d5d7d9;
+    padding: 0.35rem 1.75rem 0.35rem 0.35rem;
+    margin-top: 12px;
+    background-color: #f7f7f7;
+    display: block;
+}
+
+.btn-success img {
+    height: 20px;
+    margin: -29px -28px 0px 0rem;
+    float: right;
+}
+
+.btn,
+.btn-success button {
+    margin-left: 3px;
+    border: none;
+    float: right;
+    background-color: transparent;
+    width: 20px;
+    cursor: pointer;
+}
+
+.div-form-left {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.div-form-left button {
+    width: 100px;
+    height: 40px;
+    background-color: transparent;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    margin-top: 20px;
+    outline: none;
+    color: #fff;
+    cursor: pointer;
+    float: left;
+    justify-content: center;
+    display: block;
+}
+
+.send {
+    width: 90%;
+    margin: 0px auto 0px auto;
+    padding: 0.35rem 36px 0.35rem 0rem;
+}
